@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading"> Add Post  </div>
+                    <div class="panel-heading"> Add Post test </div>
                     <div class="panel-body">
 
                         @if (session('message'))
@@ -19,7 +19,10 @@
                             </div>
                         @endif
 
-                       {{-- @if (count($errors) > 0)
+
+
+
+                       {{--    @if (count($errors) > 0)
                             <div class="alert-error">
                                 <ul>
                                     @foreach ($errors->all() as $error)
