@@ -4192,13 +4192,13 @@ tbody.collapse.in {
 
 .navbar {
     position: relative;
-    min-height: 50px;
     margin-bottom: 22px;
     border: 1px solid transparent;
     background-color: #fafafa;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     border-radius: 20px;
+    box-decoration-break: 3px 2px 20px 2px rgba(0,0,0,0);
 }
 
 .navbar:after, .navbar:before {

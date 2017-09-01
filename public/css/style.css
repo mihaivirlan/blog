@@ -4,7 +4,7 @@
     }
 
     .navbar{
-                margin-top: 30px;
+
                 border-radius: 10px;
                 box-shadow: -3px -2px 20px -2px rgba(0,0,0,0.8);
                 margin-bottom: 40px;
@@ -92,10 +92,11 @@
     }
 
     .logo_jos{
-                background-color: #ACB2B4;
+                background-color: #f7f7f7;
                 text-align: center;
                 margin-top: 70px;
                 font-family: "Malgun Gothic";
+
 
     }
 

@@ -266,7 +266,8 @@ button, input, optgroup, select, textarea {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
-    border-radius: 20px;
+    border-radius: 30px;
+    font-size: 12px;
 }
 
 button, input {
@@ -3173,7 +3174,6 @@ tbody.collapse.show {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .5rem 1rem
 }
 
 .navbar > .container, .navbar > .container-fluid {
@@ -3191,7 +3191,7 @@ tbody.collapse.show {
     display: inline-block;
     padding-bottom: .3125rem;
     margin-right: 1rem;
-    font-size: 22px;
+    font-size: 18px;
     line-height: inherit;
     white-space: nowrap;
     margin-bottom: 10px;

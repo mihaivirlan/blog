@@ -30,7 +30,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="logo_jos">Copyright &copy; Your Website 2017</div>
+                <div class="logo_jos text-center">Copyright &copy; Your Website 2017</div>
             </div>
         </div>
     </div>

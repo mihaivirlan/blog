@@ -6,7 +6,7 @@
 body {
   font-size: 18px;
   color: #333333;
-  text-align: center;
+  text-align: left;
    }
 
 p {
@@ -173,8 +173,6 @@ header.masthead {
       margin-top: 0; }
     header.masthead .page-heading .subheading,
     header.masthead .site-heading .subheading {
-      font-size: 24px;
-      font-weight: 300;
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
@@ -212,7 +210,7 @@ header.masthead {
     text-decoration: none;
     color: #0085A1; }
   .post-preview > a > .post-title {
-    font-size: 30px;
+    font-size: 10px;
     margin-top: 30px;
     margin-bottom: 10px; }
   .post-preview > a > .post-subtitle {
@@ -295,10 +293,10 @@ footer {
     text-align: center; }
 
 .btn {
-  font-size: 15px;
+  font-size: 13px;
   border-radius: 20px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #d0d0d0;
+  background-color: #f7f7f7;
 }
 
 .btn-primary {
