@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>Home</title>
+        <title>Acasa</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -71,11 +71,11 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
-                        <li class="@if (Request::path() == 'news') menu_active @endif">> <a href="{{ url('/home') }}">Home</a>
+                        <li class="@if (Request::path() == 'news') menu_active @endif">> <a href="{{ url('/home') }}">Acasa</a>
                         </li>
                     @else
                         <a href="{{ url('/login') }}">Log in</a>
-                        <a href="{{ url('/register') }}">New account</a>
+                        <a href="{{ url('/register') }}">Cont nou</a>
                     @endif
                 </div>
             @endif

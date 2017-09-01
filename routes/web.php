@@ -16,7 +16,9 @@ Route::get('/', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/contact', 'HomeController@Contact')->name('contact');
+Route::get('/about', 'HomeController@About')->name('about');
+Route::post('/contact', 'HomeController@Contact')->name('contact');
 Route::get('/news', 'PostsController@index')->name('news');
 Route::get('/news/{id}', 'PostsController@show')->name('show');
 Route::get('/new', 'PostsController@newPost')->name('new');

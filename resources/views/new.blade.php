@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading"> Add Post test </div>
+                    <div class="panel-heading"> Adauga postare </div>
                     <div class="panel-body">
 
                         @if (session('message'))
@@ -18,9 +18,6 @@
                                 </ul>
                             </div>
                         @endif
-
-
-
 
                        {{--    @if (count($errors) > 0)
                             <div class="alert-error">
@@ -36,7 +33,7 @@
                             {{ csrf_field() }}
 
                             <div class="form-group{{ $errors->has('titlu') ? ' has-error' : '' }}">
-                                <label for="email" class="col-md-3 control-label">Titlu</label>
+                                <label for="email" class="col-md-1 control-label">Titlu</label>
 
                                 <div class="col-md-9">
                                     <input id="titlu" type="text" class="form-control" name="titlu" value="{{ old('titlu') }}" required autofocus>
@@ -52,7 +49,7 @@
 
 
                             <div class="form-group{{ $errors->has('continut') ? ' has-error' : '' }}">
-                                <label for="password" class="col-md-3 control-label">Continut</label>
+                                <label for="password" class="col-md-1 control-label">Continut</label>
 
                                 <div class="col-md-9">
                                    <textarea name="continut" style="width: 100%;height: 200px;">{{old("continut")}}</textarea>
@@ -65,7 +62,7 @@
                             </div>
 
                             <div class="form-group{{ $errors->has('imagine') ? ' has-error' : '' }}">
-                                <label for="imagine" class="col-md-3 control-label">Imagine</label>
+                                <label for="imagine" class="col-md-1 control-label">Imagine</label>
 
                                 <div class="col-md-9">
                                     <input id="imagine" type="file" class="form-control" name="imagine">
@@ -79,7 +76,7 @@
                             </div>
 
                             <div class="form-group">
-                                <div class="col-md-12 col-md-offset-5">
+                                <div class="col-md-12 ">
                                     <button type="submit" class="btn btn-primary">
                                         Submit
                                     </button>

@@ -1,5 +1,0 @@
-1 pagina about;
-//2 logarea
-//3 adaugarea noutatii
-4 editarea noutatii
-5 stergerea noutatii

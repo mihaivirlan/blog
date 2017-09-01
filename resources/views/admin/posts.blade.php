@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading"> Add Post  </div>
+                    <div class="panel-heading"> Total postari  </div>
                     <div class="panel-body">
 
                         @if (session('message'))
@@ -19,29 +19,31 @@
                             </div>
                         @endif
 
-                        <table>
+                        <div class="col-md-12 col-md-offset-4">
+                            <table>
                             <tr>
-                                <td>Actiuni</td>
-                                <td>Titlu</td>
+                                <td><h4><b>Actiuni postare</h4></td></div>
+                            <td><h4><b>Titlu postare</h4></td>
+
                             </tr>
-
                             @forelse($posts as $postare)
-
                                 <tr>
                                     <td style="padding-right: 10px;">
-                                        <a class="btn btn-success" href="{{url('admin/posts/edit/'.$postare->id)}}"> editare </a>
-                                        <a class="btn btn-warning" href="{{url('admin/posts/remove/'.$postare->id)}}"> sterge </a>
+                                        <br>
+                                        <a class="btn btn-success" href="{{url('admin/posts/edit/'.$postare->id)}}"> Editeaza </a>
+                                        <a class="btn btn-warning" href="{{url('admin/posts/remove/'.$postare->id)}}"> Sterge </a>
+                                        <br><br>
                                     </td>
                                     <td>{{$postare->titlu}}</td>
                                 </tr>
 
                             @empty
 
-                                <td colspan="2">nu sunt noutati</td>
+                                <td colspan="2">Nu sunt noutati</td>
                             @endforelse
 
-                        </table>
-
+                            </table>
+                        </div>
 
                         {{ $posts->links() }}
                     </div>

@@ -7,14 +7,15 @@
             @forelse($posts as $postare)
                 <div class="post-preview">
                     <a href="{{url("news/".$postare->id)}}">
-                        <h2 class="post-title">
+                        <h5 class="post-title">
                             {{$postare->titlu}}
-                        </h2>
+                        </h5>
+                        <hr>
                         <h3 class="post-subtitle">
                             {{str_limit($postare->continut,100)}}
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by
+                    <p class="post-meta">Postat de catre:<br>
                         <a href="#">{{$postare->autor}}</a>
                         on {{$postare->created_at}}</p>
                 </div>
@@ -25,7 +26,7 @@
 
             <!-- Pager -->
             <div class="clearfix">
-                <a class="btn btn-secondary float-right" href="{{route('news')}}">Older Posts &rarr;</a>
+                <a class="btn btn-default float-right" href="{{route('news')}}">Mai multe postari >></a>
             </div>
         </div>
     </div>
