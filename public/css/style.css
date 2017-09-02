@@ -110,3 +110,4 @@
                 text-color:white;
     }
 
+    .div.menuBar li.selected a { color: #FF0000; }

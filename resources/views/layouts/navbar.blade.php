@@ -7,10 +7,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="">
-                <a class="nav-link" href="{{url('/')}}">Home</a>
+           <li>
+                 <a class="nav-link" href="{{url('/')}}">Home</a>
             </li>
-            <li class="">
+            <li class="selected">
                 <a class="nav-link" href="{{route('about')}}">About</a>
             </li>
             <li class="">
@@ -28,7 +28,8 @@
                     </li>
                 @endif
 
-                <li class="">
+
+                    <li class="">
 
                     <a class="nav-link" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
