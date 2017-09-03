@@ -1,6 +1,2 @@
 
 @extends('layouts.app')
-
-
-
-
