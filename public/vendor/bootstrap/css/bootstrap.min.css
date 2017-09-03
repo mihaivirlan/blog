@@ -182,7 +182,6 @@ sup {
 
 a {
     color: #007bff;
-    text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
@@ -371,15 +370,16 @@ template {
 }
 
 .h2, h2 {
-    font-size: 2rem
+    font-size: 15px;
 }
 
 .h3, h3 {
-    font-size: 1.75rem
+    font-size:15;
+    margin-left: 12px;
 }
 
 .h4, h4 {
-    font-size: 1.5rem
+    font-size: 13;
 }
 
 .h5, h5 {
@@ -392,7 +392,8 @@ template {
 }
 
 .lead {
-    font-size: 1.25rem;
+    font-size: 18px;
+    margin-left: 12px;
     font-weight: 300
 }
 

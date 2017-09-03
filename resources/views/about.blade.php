@@ -2,16 +2,13 @@
 
 @section('content')
 
-<div class="blog-header ">
-        <h3 class="blog-title">The Blog</h3>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
-    </div>
+<div class="page_about">
+        <h3 class="blog-title">The Blog - Sample blog post</h3>
+    <hr>
     <div class="row">
         <div class="col-sm-12 blog-main">
             <div class="blog-post">
-                <h2 class="blog-post-title">Sample blog post</h2>
                 <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
                 <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
                 <hr>
                 <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
@@ -64,9 +61,11 @@
                 <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
             </div><!-- /.blog-post -->
+
             <hr>
-            <button type="btn btn-default" class="pull-left"><a href="#"><h5> Back to top</h5></a></button>
+            <button class="btn btn-default pull-left"><a href="#"><h5> Back to top</h5></a></button>
 @endsection
+        </div>
 
 
 

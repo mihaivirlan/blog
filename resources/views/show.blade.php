@@ -29,7 +29,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
-                    {{$postare->continut}}
+                    <h3>{{$postare->continut}}</h3>
                 </div>
             </div>
         </div>
