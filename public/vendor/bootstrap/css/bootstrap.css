@@ -6287,9 +6287,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 @media (min-width: 992px) {
-  .float-lg-left {
-    float: left !important;
-  }
+
   .float-lg-right {
     float: right !important;
   }

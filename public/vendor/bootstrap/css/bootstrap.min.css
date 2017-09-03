@@ -383,7 +383,8 @@ template {
 }
 
 .h5, h5 {
-    font-size: 1.25rem
+    font-size: 1.25rem;
+    color:black;
 }
 
 .h6, h6 {
@@ -2038,8 +2039,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745
+
 }
 
 .btn-success:hover {
@@ -2091,8 +2091,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-warning {
-    color: #111;
-    background-color: #ffc107;
+    background-color: #09a6ff;
     border-color: #ffc107
 }
 
@@ -6288,7 +6287,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .float-right {
-    float: right !important
+
 }
 
 .float-none {

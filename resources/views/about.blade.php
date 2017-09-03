@@ -65,7 +65,7 @@
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
             </div><!-- /.blog-post -->
             <hr>
-            <button type="button" class=" button_type"><a href="#"> Back to top<i class="fa fa-chevron-up"></i> </a></button>
+            <button type="btn btn-default" class="pull-left"><a href="#"><h5> Back to top</h5></a></button>
 @endsection
 
 

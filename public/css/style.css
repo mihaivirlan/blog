@@ -7,7 +7,6 @@
 
                 border-radius: 10px;
                 box-shadow: -3px -2px 20px -2px rgba(0,0,0,0.8);
-                margin-bottom: 40px;
     }
 
     .scroll-top {
@@ -110,4 +109,6 @@
                 text-color:white;
     }
 
-    .div.menuBar li.selected a { color: #FF0000; }
+  .noutati{
+                margin-top: 100px;
+  }

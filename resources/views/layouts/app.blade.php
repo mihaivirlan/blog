@@ -72,7 +72,6 @@
 
     @yield('content')
 
-
 <!-- Footer -->
 <footer>
     <div class="container">
