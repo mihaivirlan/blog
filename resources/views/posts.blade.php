@@ -1,12 +1,5 @@
-    <!-- Bootstrap core CSS -->
-    <link href="{{asset('public/css/app.css')}}" rel="stylesheet">
-    <link href="{{asset('public/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="{{asset('public/css/clean-blog.css')}}" rel="stylesheet">
-
-@include('layouts.navbar')
-
+@extends('layouts.app')
+@section('content')
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             @forelse($posts as $postare)
@@ -30,7 +23,4 @@
                 {{ $posts->links() }}
         </div>
     </div>
-
-    @yield('content')
-
-    @include('layouts.footer')
+@endsection
