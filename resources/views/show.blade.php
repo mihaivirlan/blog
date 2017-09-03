@@ -36,7 +36,7 @@
     </article>
 <hr>
 <br>
-    <button class="btn btn-default col-md-0 col-md-offset-3"> <a href="#"> Back to top</a></button>
+    <button class="btn btn-default col-md-0 col-md-offset-3"><a href="#"> Back to top</a></button>
 @endsection
 
 
