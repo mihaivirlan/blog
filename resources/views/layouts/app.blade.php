@@ -71,10 +71,58 @@
             </div>
         </div>
     </nav>
-
+<!-- Page Header -->
+<header class="masthead" style="height: 400px; background-image: url('{{asset('public/images/home-bg.jpg')}}')">
+    <div class="head_style container">
+        <div class="row">
+            <div class="col-lg-12 col-md-2 mx-auto">
+                <div class="site-heading">
+                    <h2>Blogul meu</h2>
+                    <span class="subheading">Acesta este un blog personalizat</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
     @yield('content')
 </div>
 
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/Mihai Virlan">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/mihaivirlan">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="logo_jos text-center">Copyright &copy; Your Website 2017</div>
+            </div>
+        </div>
+    </div>
+</footer>
 <!-- Scripts -->
 <script src="{{ asset('public/js/app.js') }}"></script>
 </body>
