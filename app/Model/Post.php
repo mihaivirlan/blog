@@ -3,12 +3,11 @@
 namespace App\Model;
 
 use App\Extensions\SearchableTrait;
-use Illuminate\Support\Facades\DB;
 
 class Post extends Elegant
 {
     protected $fillable = [
-      'titlu',
+        'titlu',
         'user_id',
         'continut',
         'imagine',

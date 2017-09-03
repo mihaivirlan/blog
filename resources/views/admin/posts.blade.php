@@ -35,6 +35,7 @@
                                         <br>
                                         <a class="btn btn-success" href="{{url('admin/posts/edit/'.$postare->id)}}"> Editeaza </a>
                                         <a class="btn btn-warning" href="{{url('admin/posts/remove/'.$postare->id)}}"> Sterge </a>
+
                                         <br><br>
                                     </td>
                                     <td>{{$postare->titlu}}</td>
@@ -54,7 +55,5 @@
             </div>
         </div>
     </div>
-
-
 
 @endsection

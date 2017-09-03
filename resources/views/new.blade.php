@@ -49,9 +49,7 @@
                                     @endif
                                 </div>
                             </div>
-
-
-
+                            <br>
                             <div class="form-group{{ $errors->has('continut') ? ' has-error' : '' }}">
                                 <label for="password" class="col-md-1 control-label">Continut</label>
 
@@ -64,7 +62,7 @@
                                     @endif
                                 </div>
                             </div>
-
+                            <br>
                             <div class="form-group{{ $errors->has('imagine') ? ' has-error' : '' }}">
                                 <label for="imagine" class="col-md-1 control-label">Imagine</label>
 
@@ -78,9 +76,9 @@
                                     @endif
                                 </div>
                             </div>
-
+                            <br>
                             <div class="form-group">
-                                <div class="col-md-12 ">
+                                <div class="col-md-12">
                                     <button type="submit" class="btn btn-primary">
                                         Submit
                                     </button>
