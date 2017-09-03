@@ -4,6 +4,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <a class="btn btn-default float-left" href="{{route('admin')}}">Go Back</a>
+                <br>
+                <hr>
+
                 <div class="panel panel-default">
                     <div class="panel-heading"> Adauga postare </div>
                     <div class="panel-body">
@@ -88,4 +92,5 @@
             </div>
         </div>
     </div>
+
 @endsection

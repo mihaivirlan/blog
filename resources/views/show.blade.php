@@ -9,7 +9,7 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <div class="post-heading">
                         <h1>{{$postare->titlu}}</h1>
-                        <h2 class="subheading">{{str_limit($postare->continut,100)}}</h2>
+                        <h2 class="subheading">{{str_limit($postare->continut,400)}}</h2>
                         <span class="meta">Postat de catre:<br>
                 <a href="#">{{$postare->autor}}</a><br>
                 la: {{$postare->created_at}}</span>
@@ -31,6 +31,9 @@
     </article>
 
 @endsection
+
+
+
 
 
 

@@ -10,7 +10,7 @@
            <li>
                  <a class="nav-link" href="{{url('/')}}">Home</a>
             </li>
-            <li class="selected">
+            <li class="">
                 <a class="nav-link" href="{{route('about')}}">About</a>
             </li>
             <li class="">

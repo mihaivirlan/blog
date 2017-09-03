@@ -1,4 +1,3 @@
-
     <!-- Bootstrap core CSS -->
     <link href="{{asset('public/css/app.css')}}" rel="stylesheet">
     <link href="{{asset('public/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -12,8 +11,7 @@
     <link href="{{asset('public/css/clean-blog.css')}}" rel="stylesheet">
 
 @include('layouts.navbar')
-@section('content')
-@endsection
+
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <p>Ai vrea sa-mi lasi un mesaj? Completeaza casetele de mai jos cu initialele necesare pentru a-mi trimite mesajul dorit!</p>

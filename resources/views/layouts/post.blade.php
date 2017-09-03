@@ -13,7 +13,9 @@
     <link href="{{asset('public/css/clean-blog.css')}}" rel="stylesheet">
 
 @include('layouts.navbar')
+
 @yield('content')
+
 <hr>
 <a class="btn btn-default float-left" href="{{route('news')}}">Go Back</a>
 <button type="button" class=" button_type pull-right"><a href="#"> Back to top<i class="fa fa-chevron-up"></i> </a></button>
