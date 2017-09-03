@@ -30,6 +30,8 @@
         </div>
     </article>
 <hr>
+    <a class="btn btn-default float-left" href="{{route('news')}}">Go Back</a>
+    <button type="button" class=" button_type pull-right"><a href="#"> Back to top</a></button>
 @endsection
 
 
