@@ -22,56 +22,53 @@
 <link href="{{asset('public/css/clean-blog.css')}}" rel="stylesheet">
 
 <nav class="navbar navbar-expand-lg navbar-grey">
-<a class="navbar-brand" href="{{url('/')}}">Blogul meu</a>
-<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-    Menu
-    <i class="fa fa-bars"></i>
-</button>
-<div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav ml-auto">
-        <li>
-            <a class="nav-link" href="{{url('/')}}">Home</a>
-        </li>
-        <li class="">
-            <a class="nav-link" href="{{route('about')}}">About</a>
-        </li>
-        <li class="">
-            <a class="nav-link" href="{{route('contact')}}">Contact</a>
-        </li>
+    <a class="navbar-brand" href="{{url('/')}}">Blogul meu</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li>
+                <a class="nav-link" href="{{url('/')}}">Home</a>
+            </li>
+            <li class="">
+                <a class="nav-link" href="{{route('about')}}">About</a>
+            </li>
+            <li class="">
+                <a class="nav-link" href="{{route('contact')}}">Contact</a>
+            </li>
 
-                <!-- Right Side Of Navbar -->
-                <ul class="nav navbar-nav navbar-right">
-                    <!-- Authentication Links -->
-                    @if (Auth::guest())
-                        <li><a href="{{ route('login') }}">Login</a></li>
-                        <li><a href="{{ route('register') }}">Register</a></li>
-                    @else
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                {{ Auth::user()->name }} <span class="caret"></span>
-                            </a>
+            @if (Auth::guest())
+                <li class=""><a class="nav-link" href="{{ route('login') }}">Log in</a></li>
+                <li class=""><a class="nav-link" href="{{ route('register') }}">Register</a></li>
+            @else
 
-                            <ul class="dropdown-menu" role="menu">
-                                <li>
-                                    <a href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
+                @if(auth()->user()->is_admin == 1)
+                    <li class="">
+                        <a class="nav-link" href="{{route('admin')}}">Administrare</a>
+                    </li>
+                @endif
+
+
+                <li class="">
+
+                    <a class="nav-link" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                        Logout
-                                    </a>
+                        ({{auth()->user()->name}}) Log out
+                    </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                        {{ csrf_field() }}
-                                    </form>
-                                </li>
-                            </ul>
-                        </li>
-                    @endif
-                </ul>
-            </div>
-        </div>
-    </nav>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
+                </li>
+            @endif
 
+        </ul>
+    </div>
+</nav>
     @yield('content')
 </div>
 
