@@ -60,10 +60,12 @@
                 </ul>
                 <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                <br>
+                <button class="btn btn-default pull-left"><a href="#"><h5>Mergi sus</h5></a></button><br>
             </div><!-- /.blog-post -->
-
             <hr>
-            <button class="btn btn-default pull-left"><a href="#"><h5> Back to top</h5></a></button>
+
+
 @endsection
         </div>
 

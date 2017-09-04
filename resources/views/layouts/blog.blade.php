@@ -18,6 +18,7 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:bold">
+
 <!-- Custom styles for this template -->
 <link href="{{asset('public/css/clean-blog.css')}}" rel="stylesheet">
 
@@ -50,7 +51,6 @@
                         <a class="nav-link" href="{{route('admin')}}">Administrare</a>
                     </li>
                 @endif
-
 
                 <li class="">
 

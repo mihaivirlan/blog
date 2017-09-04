@@ -23,16 +23,6 @@
                             </div>
                         @endif
 
-                       {{--    @if (count($errors) > 0)
-                            <div class="alert-error">
-                                <ul>
-                                    @foreach ($errors->all() as $error)
-                                        <li>{{ $error }}</li>
-                                    @endforeach
-                                </ul>
-                            </div>
-                        @endif--}}
-
                         <form class="form-horizontal" enctype="multipart/form-data" method="POST" action="{{ route('new') }}">
                             {{ csrf_field() }}
 

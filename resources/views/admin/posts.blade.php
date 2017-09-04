@@ -26,29 +26,30 @@
                         <div class="col-md-12 col-md-offset-4">
                             <table>
                             <tr>
-                                <td><h4><b>Actiuni postare</h4></td></div>
+                                <td><h4><b>Actiuni postare</h4></td>
                             <td class="pull-right"><h4><b>Titlu postare</h4></td>
+                        </div>
 
 
-                            </tr>
 
                             @forelse($posts as $postare)
                                 <tr>
                                     <td style="padding-right: 10px;">
                                         <br>
                                         <a class="btn btn-success" href="{{url('admin/posts/edit/'.$postare->id)}}"> Editeaza </a>
-                                        <a class="btn btn-warning" href="{{url('admin/posts/remove/'.$postare->id)}}"> Sterge </a>
+                                        <a class="btn btn-danger" href="{{url('admin/posts/remove/'.$postare->id)}}"> Sterge </a>
                                         <br><br>
                                     </td>
-                                    <td>{{$postare->titlu}}</td>
+                                    <td class="text-right">{{$postare->titlu}}</td>
                                 </tr>
                             @empty
                                 <td colspan="2">Nu sunt noutati</td>
                             @endforelse
                             </table>
+                            {{ $posts->links() }}
                         </div>
 
-                        {{ $posts->links() }}
+
                     </div>
                 </div>
             </div>

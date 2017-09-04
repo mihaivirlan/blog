@@ -15,6 +15,8 @@
                             {{str_limit($postare->continut,400)}}
                         </h4>
                     </a>
+
+                    <h5>Postat de
                     <a class="btn btn-primary" href="https://github.com/mihaivirlan">{{$postare->autor}}</a>
                     <div class="btn btn-success"> pe: {{$postare->created_at}}</div>
                 </div>
@@ -27,7 +29,8 @@
         </div>
     </div>
     <br>
-    <button class="btn btn-default col-md-0 col-md-offset-2"><a href="#">Back to top</a></button>
+    <button class="btn btn-default col-md-0 col-md-offset-2"><a href="#">Mergi sus</a></button>
+    <hr>
 
 @endsection
 
