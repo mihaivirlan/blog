@@ -7,11 +7,11 @@
             @forelse($posts as $postare)
                 <div class="post-preview">
                     <a href="{{url("news/".$postare->id)}}">
-                        <h3 class="post-title">
+                        <h3 style="word-wrap:break-word" class="post-title">
                             {{$postare->titlu}} <a class="btn btn-danger col-md-offset-0" href="{{url("news/".$postare->id)}}">Read more</a>
                             <hr>
-                        </h3>
-                        <h4 class="post-subtitle">
+                        </h3st>
+                        <h4 style="word-wrap:break-word" class="post-subtitle">
                             {{str_limit($postare->continut,400)}}
                         </h4>
                     </a>

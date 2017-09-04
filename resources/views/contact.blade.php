@@ -13,7 +13,7 @@
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
                         <label>Nume</label>
-                        <input type="text" class="form-control" placeholder="Nume" id="name"
+                        <input type="text" class="form-control" placeholder="Nume" id="nume"
                                required data-validation-required-message="Please enter your name.">
                         <p class="help-block text-danger"></p>
                     </div>
@@ -29,7 +29,7 @@
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
                         <label>Numar telefon</label>
-                        <input type="tel" class="form-control" placeholder="Numar telefon" id="phone"
+                        <input type="tel" class="form-control" placeholder="Numar telefon" id="numar_telefon"
                                required data-validation-required-message="Please enter your phone number.">
                         <p class="help-block text-danger"></p>
                     </div>
@@ -37,7 +37,7 @@
                 <div class="control-group">
                     <div class="form-group floating-label-form-group controls">
                         <label>Mesaj</label>
-                        <textarea rows="5" class="form-control" placeholder="Mesaj" id="message"
+                        <textarea rows="5" class="form-control" placeholder="Mesaj" id="mesaj"
                                   required data-validation-required-message="Please enter a message."></textarea>
                         <p class="help-block text-danger"></p>
                     </div>
