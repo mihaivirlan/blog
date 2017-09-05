@@ -23,30 +23,29 @@
                             </div>
                         @endif
 
-                        <div class="col-md-12 col-md-offset-4">
-                            <table>
-                            <tr>
-                                <td><h4><b>Actiuni postare</h4></td>
-                            <td class="pull-right"><h4><b>Titlu postare</h4></td>
+                        <div class="col-md-6 col-md-offset-3">
+                            <table class="text-center">
+                            <tr class="text-center">
+                                <td class="text-center"><h4><b>Actiuni postare</h4></td>
+                                 <td class="text-center"><h4><b>Titlu postare</h4></td>
                         </div>
-
-
 
                             @forelse($posts as $postare)
                                 <tr>
-                                    <td style="padding-right: 10px;">
+                                    <td style="text-align: center">
                                         <br>
                                         <a class="btn btn-success" href="{{url('admin/posts/edit/'.$postare->id)}}"> Editeaza </a>
                                         <a class="btn btn-danger" href="{{url('admin/posts/remove/'.$postare->id)}}"> Sterge </a>
                                         <br><br>
                                     </td>
-                                    <td class="text-right">{{$postare->titlu}}</td>
+                                    <td style="width:20px; word-wrap:break-word" class="text-center">{{$postare->titlu}}</td>
                                 </tr>
                             @empty
-                                <td colspan="2">Nu sunt noutati</td>
+                                <td colspan="6">Nu sunt noutati</td>
                             @endforelse
                             </table>
-                            {{ $posts->links() }}
+                            <hr class="col-md-12" style=" word-wrap: break-word">
+                                <div class="col-md-offset-4"> {{ $posts->links() }}</div>
                         </div>
 
 

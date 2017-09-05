@@ -2404,7 +2404,7 @@ pre code {
     }
 
     .col-md-offset-2 {
-        margin-left: 16.66666667%
+        margin-left: 20.66666667%
     }
 
     .col-md-offset-3 {
@@ -3249,8 +3249,7 @@ textarea.form-control {
 }
 
 .form-horizontal .form-group {
-    margin-left: -15px;
-    margin-right: -15px
+
 }
 
 .form-horizontal .form-group:after, .form-horizontal .form-group:before {

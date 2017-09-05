@@ -8,7 +8,7 @@
                 <div class="post-preview">
                     <a href="{{url("news/".$postare->id)}}">
                         <h3 style="word-wrap:break-word" class="post-title">
-                            {{$postare->titlu}} <a class="btn btn-danger col-md-offset-0" href="{{url("news/".$postare->id)}}">Read more</a>
+                            {{$postare->titlu}} <a class="btn btn-danger col-md-offset-0" href="{{url("news/".$postare->id)}}">Citeste mai mult</a>
                             <hr>
                         </h3st>
                         <h4 style="word-wrap:break-word" class="post-subtitle">
@@ -16,21 +16,22 @@
                         </h4>
                     </a>
 
-                    <h5>Postat de
+                    <h4>Postat de
                     <a class="btn btn-primary" href="https://github.com/mihaivirlan">{{$postare->autor}}</a>
                     <div class="btn btn-success"> pe: {{$postare->created_at}}</div>
                 </div>
-                <hr>
                 <br>
             @empty
-                <div class="text-center">nu sunt noutati</div>>
-        @endforelse
+                <div class="text-center">nu sunt noutati</div>
+            @endforelse
+            <br>
+                <button class="btn btn-danger pull-right"><a style="color: white" href="#">Mergi sus</a></button>
+                <br>
+                <hr>
                 {{ $posts->links() }}
         </div>
     </div>
-    <br>
-    <button class="btn btn-default col-md-0 col-md-offset-2"><a href="#">Mergi sus</a></button>
-    <hr>
+
 
 @endsection
 

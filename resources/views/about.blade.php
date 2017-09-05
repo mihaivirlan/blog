@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="page_about">
+<div class="page_about col-md-10 col-md-offset-1">
         <h3 class="blog-title">The Blog - Sample blog post</h3>
     <hr>
     <div class="row">
@@ -61,7 +61,7 @@
                 <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
                 <br>
-                <button class="btn btn-default pull-left"><a href="#"><h5>Mergi sus</h5></a></button><br>
+                <button class="btn btn-danger pull-right"><a style="color: white" href="#">Mergi sus</a></button><br>
             </div><!-- /.blog-post -->
             <hr>
 

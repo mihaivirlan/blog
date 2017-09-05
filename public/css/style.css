@@ -94,7 +94,7 @@
                 background-color: #f7f7f7;
                 text-align: center;
                 margin-top: 30px;
-                font-family: "Malgun Gothic";
+                font-family: Malgun Gothic,sans-serif;
 
 
     }
@@ -106,7 +106,7 @@
                 margin-top: 30px;
                 background-color:#D8D8D8;
                 border-radius: 10px;
-                text-color:white;
+                color:white;
     }
 
   .noutati{
@@ -117,3 +117,10 @@
                 text-align: center;
                 margin-top: 100px;
   }
+
+  .head_photo{
+                margin-top: 30px;
+
+
+  }
+

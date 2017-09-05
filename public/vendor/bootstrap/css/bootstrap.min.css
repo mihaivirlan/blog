@@ -383,8 +383,8 @@ template {
 }
 
 .h5, h5 {
-    font-size: 1.25rem;
-    color:black;
+    font-size: 15px;
+    color:#ffffff;
 }
 
 .h6, h6 {
@@ -968,7 +968,8 @@ pre code {
     .col-md-6 {
         -ms-flex: 0 0 50%;
         flex: 0 0 50%;
-        max-width: 50%
+        max-width: 50%;
+        border-radius:10px;
     }
 
     .col-md-7 {

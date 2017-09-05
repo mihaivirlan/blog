@@ -3,11 +3,10 @@
 @section('content')
 
     <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-            <p>Ai vrea sa-mi lasi un mesaj? Completeaza casetele de mai jos cu initialele necesare pentru a-mi trimite mesajul dorit!</p>
-            <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
-            <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
-            <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+        <div class=" page_about col-lg-8 col-md-10 mx-auto">
+            Ai vrea sa-mi lasi un mesaj? Completeaza casetele de mai jos cu initialele necesare pentru a-mi trimite mesajul dorit!
+             <hr>
+            <br>
             <form class="form-horizontal" method="POST" action="{{ route('contact') }}">
                 {{ csrf_field() }}
                 <div class="control-group">
@@ -45,7 +44,9 @@
                 <br>
                 <div id="success"></div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-secondary">Trimite</button>
+                    <button type="submit" class=" pull-left btn btn-danger">Trimite</button>
+                    <br>
+                    <hr>
                 </div>
             </form>
         </div>

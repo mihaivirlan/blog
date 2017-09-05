@@ -28,8 +28,7 @@ a {
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
-  a:focus, a:hover {
-    color: #0085A1; }
+
 
 a img:focus, a img:hover {
   cursor: zoom-in; }
@@ -293,8 +292,7 @@ footer {
     text-align: center; }
 
 .btn {
-  font-size: 13px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
